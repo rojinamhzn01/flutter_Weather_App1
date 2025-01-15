@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'dart:convert';
-import 'package:http/http.dart' as http;
 import 'package:weather_app1/controller/theme_controller.dart';
-import 'package:weather_app1/controller/weather_controller.dart';
 import 'package:weather_app1/screen/help_screen.dart';
 
 void main() {

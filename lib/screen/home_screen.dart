@@ -48,7 +48,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
-                weatherController.fetchWeather(weatherController.location.value);
+                weatherController.fetchWeather(weatherController.location.value,"d19b8d1653a34c5f800123433251101");
               },
               child: Text("Search"),
             ),
